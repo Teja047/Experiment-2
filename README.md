@@ -109,3 +109,24 @@ for num in mylist:
     sum += num
 
 print("The sum of numbers is:", sum)
+
+
+
+
+num = 0
+while num<=20:
+    if num % 2 == 0:
+        print(num,end=',')
+    num += 1
+
+
+
+
+
+for i in range(1,11):
+    if i == 5:
+        continue
+    if i == 8:
+        break
+    print(i)
+
